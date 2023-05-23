@@ -79,8 +79,11 @@ button:hover {
 
 .universities-grid {
   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+   /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr,));  */
+   grid-template-columns: auto auto auto;
   grid-gap: 20px;
+  margin-left: -25%;
+  /* margin: 10px auto; */
 }
 
 .university-item {
