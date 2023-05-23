@@ -1,0 +1,108 @@
+body {
+  font-family: cursive;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  transition: color 0.3s;
+  font-family: cursive;
+  font-size: 16px;
+  margin-bottom: 40px;
+  margin-left: 10%;
+}
+
+.first-letter {
+  font-weight: bold;
+  font-size: x-large;
+  color: #0d6efd;
+  margin-right: 2.5px;
+ 
+
+}
+
+h1:hover {
+  color: lightseagreen;
+}
+h2 {
+  font-family:  cursive;
+  font-size: 16px;
+  margin-left: 10%;
+}
+
+.search-panel {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  
+}
+
+button {
+  padding: 3px 18px;
+  /* font-size: 12px; */
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+
+}
+
+button:hover {
+  background-color: lightseagreen;
+}
+
+.result-count {
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.result-count:hover {
+  color: lightseagreen;
+}
+
+.universities-grid {
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  grid-gap: 20px;
+}
+
+.university-item {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.55);
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
